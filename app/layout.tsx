@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import { Plus_Jakarta_Sans, Inter } from 'next/font/google'
 import './globals.css'
 import { WhatsAppFloatingButton } from '@/components/layout/WhatsAppFloatingButton'
+import { cldUrl } from '@/lib/cloudinary'
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: '--font-jakarta',
@@ -24,8 +25,8 @@ export const metadata: Metadata = {
   creator: 'Dr. Mulchandani\'s Advanced Ranjhi Dental Hospital',
   generator: 'v0.app',
   icons: {
-    icon: '/images/logo.jpeg',
-    apple: '/images/logo.jpeg',
+    icon: cldUrl('branding/advanced-dental-clinic-logo'),
+    apple: cldUrl('branding/advanced-dental-clinic-logo'),
   },
   openGraph: {
     type: 'website',

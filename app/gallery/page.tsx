@@ -20,17 +20,17 @@ interface GalleryItem {
 }
 
 const MASONRY_ITEMS = [
-  { id: 1, src: 'adc/gallery/clinic-gallery-01' },
-  { id: 2, src: 'adc/gallery/clinic-gallery-02' },
-  { id: 3, src: 'adc/gallery/clinic-gallery-03' },
-  { id: 4, src: 'adc/gallery/clinic-gallery-04' },
-  { id: 5, src: 'adc/gallery/clinic-gallery-05' },
-  { id: 6, src: 'adc/gallery/clinic-gallery-06' },
-  { id: 7, src: 'adc/gallery/clinic-gallery-07' },
-  { id: 8, src: 'adc/gallery/clinic-gallery-08' },
-  { id: 9, src: 'adc/gallery/clinic-gallery-09' },
-  { id: 10, src: 'adc/gallery/clinic-gallery-10' },
-  { id: 11, src: 'adc/gallery/clinic-gallery-11' },
+  { id: 1, src: 'gallery/clinic-gallery-01' },
+  { id: 2, src: 'gallery/clinic-gallery-02' },
+  { id: 3, src: 'gallery/clinic-gallery-03' },
+  { id: 4, src: 'gallery/clinic-gallery-04' },
+  { id: 5, src: 'gallery/clinic-gallery-05' },
+  { id: 6, src: 'gallery/clinic-gallery-06' },
+  { id: 7, src: 'gallery/clinic-gallery-07' },
+  { id: 8, src: 'gallery/clinic-gallery-08' },
+  { id: 9, src: 'gallery/clinic-gallery-09' },
+  { id: 10, src: 'gallery/clinic-gallery-10' },
+  { id: 11, src: 'gallery/clinic-gallery-11' },
 ];
 
 export default function GalleryPage() {
@@ -38,12 +38,12 @@ export default function GalleryPage() {
   const [openModal, setOpenModal] = useState<null | typeof MASONRY_ITEMS[number]>(null);
 
   const galleryItems: GalleryItem[] = [
-    { id: 1, category: 'braces', title: 'Orthodontic Transformation', image: 'adc/gallery/orthodontic-transformation-case' },
-    { id: 2, category: 'implants', title: 'Dental Implant Case', image: 'adc/gallery/dental-implant-case' },
-    { id: 3, category: 'cosmetic', title: 'Smile Makeover', image: 'adc/gallery/smile-makeover-case' },
-    { id: 4, category: 'braces', title: 'Complex Case Resolution', image: 'adc/gallery/complex-case-resolution' },
-    { id: 5, category: 'whitening', title: 'Professional Whitening', image: 'adc/gallery/professional-teeth-whitening' },
-    { id: 6, category: 'implants', title: 'Full Mouth Implants', image: 'adc/gallery/full-mouth-implants' },
+    { id: 1, category: 'braces', title: 'Orthodontic Transformation', image: 'gallery/orthodontic-transformation-case' },
+    { id: 2, category: 'implants', title: 'Dental Implant Case', image: 'gallery/dental-implant-case' },
+    { id: 3, category: 'cosmetic', title: 'Smile Makeover', image: 'gallery/smile-makeover-case' },
+    { id: 4, category: 'braces', title: 'Complex Case Resolution', image: 'gallery/complex-case-resolution' },
+    { id: 5, category: 'whitening', title: 'Professional Whitening', image: 'gallery/professional-teeth-whitening' },
+    { id: 6, category: 'implants', title: 'Full Mouth Implants', image: 'gallery/full-mouth-implants' },
   ];
 
   const categories = ['all', 'braces', 'implants', 'cosmetic', 'whitening'];
@@ -61,7 +61,7 @@ export default function GalleryPage() {
         title="Treatment Results & Gallery"
         subtitle="See the transformations we've created for our patients"
         breadcrumb={[{ label: 'Gallery' }]}
-        bgImage={cldUrl("adc/hero/gallery-page-hero")} 
+        bgImage={cldUrl("hero/gallery-page-hero")} 
       />
 
       <main>

@@ -61,7 +61,7 @@ export default function ContactPage() {
       <PageBanner 
         title="Contact Us"
         subtitle="Get in touch with our team for any queries or to book an appointment"
-        bgImage={cldUrl("adc/hero/contact-page-hero")}
+        bgImage={cldUrl("hero/contact-page-hero")}
       />
 
       <main>

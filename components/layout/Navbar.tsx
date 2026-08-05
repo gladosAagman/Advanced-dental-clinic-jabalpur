@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { CLINIC } from '@/lib/data/site';
+import { CldImage } from 'next-cloudinary';
 
 const navLinks = [
   { href: '/', label: 'HOME' },
@@ -30,7 +31,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/images/logo.jpeg" alt="Advanced Ranjhi Dental Logo" className="h-10 w-auto" />
+          <CldImage src="branding/advanced-dental-clinic-logo" alt="Advanced Ranjhi Dental Logo" width={160} height={40} className="h-10 w-auto" />
           <span className="font-extrabold text-[#0F4C81] text-lg lg:text-xl hidden sm:inline tracking-tight">
             Advanced Dental Jabalpur
           </span>

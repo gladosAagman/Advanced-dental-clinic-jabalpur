@@ -92,7 +92,7 @@ export default function HeroSection() {
             {/* The actual image mask - rounded corners similar to reference */}
             <div className="absolute inset-y-4 right-4 md:inset-y-8 md:right-8 left-4 md:left-8 bg-gray-100 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-700 ease-out cursor-pointer">
               <CldImage
-                src="adc/patients/patient-treatment-01"
+                src="patients/patient-treatment-01"
                 alt="Patient receiving dental treatment at Advanced Dental Clinic Jabalpur"
                 fill
                 className="object-cover object-center"

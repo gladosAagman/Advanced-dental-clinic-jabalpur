@@ -5,17 +5,17 @@ import { CldImage } from 'next-cloudinary';
 export default function MissionVisionValuesSection() {
   const cards = [
     {
-      image: 'adc/team/clinic-team-photo-02',
+      image: 'team/clinic-team-photo-02',
       title: 'Our Mission',
       desc: 'To deliver world-class dental care that is painless, ethical and affordable for every patient that walks through our doors.'
     },
     {
-      image: 'adc/team/clinic-team-photo-01',
+      image: 'team/clinic-team-photo-01',
       title: 'Our Vision',
       desc: 'To be central India\'s most trusted dental hospital — a benchmark for clinical excellence and patient experience.'
     },
     {
-      image: 'adc/team/clinic-team-photo-03',
+      image: 'team/clinic-team-photo-03',
       title: 'Our Values',
       desc: 'Integrity, compassion, precision and a relentless commitment to continuous learning and patient comfort.'
     }

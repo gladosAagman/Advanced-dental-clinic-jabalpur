@@ -39,7 +39,7 @@ export function WhyChooseUs() {
             {/* Image Container */}
             <div className="relative flex-grow min-h-[400px] rounded-[2rem] overflow-hidden mt-auto">
               <CldImage 
-                src="adc/team/clinic-team-photo-01" 
+                src="team/clinic-team-photo-01" 
                 alt="Modern Clinical Setup" 
                 fill 
                 className="object-cover bg-gray-200"

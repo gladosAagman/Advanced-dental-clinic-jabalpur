@@ -58,7 +58,7 @@
 //       <PageBanner 
 //         title="Clinical Setup & Technology"
 //         subtitle="State-of-the-art infrastructure meeting international standards"
-//         bgImage={cldUrl("adc/hero/clinical-setup-hero")}
+//         bgImage={cldUrl("hero/clinical-setup-hero")}
 //       />
 
 //       <main>
@@ -163,32 +163,32 @@ export default function ClinicalSetupPage() {
     { 
       title: 'UV Sterilization Chambers', 
       desc: 'Advanced UV technology to eliminate 99.9% of pathogens',
-      image: 'adc/clinical-setup/uv-sterilization-chamber'
+      image: 'clinical-setup/uv-sterilization-chamber'
     },
     { 
       title: 'ISO 9001 Certification', 
       desc: 'Internationally recognized quality management system',
-      image: 'adc/clinical-setup/iso-9001-certification' 
+      image: 'clinical-setup/iso-9001-certification' 
     },
     { 
       title: 'Medical-Grade Autoclave', 
       desc: 'High-pressure steam sterilization for instruments',
-      image: 'adc/clinical-setup/medical-grade-autoclave' 
+      image: 'clinical-setup/medical-grade-autoclave' 
     },
     { 
       title: 'HEPA Air Filtration', 
       desc: 'Hospital-grade air purification systems',
-      image: 'adc/clinical-setup/hepa-air-filtration' 
+      image: 'clinical-setup/hepa-air-filtration' 
     },
     { 
       title: 'Disposable Consumables', 
       desc: 'Single-use items for maximum hygiene',
-      image: 'adc/clinical-setup/disposable-consumables' 
+      image: 'clinical-setup/disposable-consumables' 
     },
     { 
       title: 'Daily Sanitization', 
       desc: 'Complete facility disinfection protocols',
-      image: 'adc/clinical-setup/daily-sanitization-protocol' 
+      image: 'clinical-setup/daily-sanitization-protocol' 
     },
   ];
 
@@ -200,7 +200,7 @@ export default function ClinicalSetupPage() {
       <PageBanner 
         title="Clinical Setup & Technology"
         subtitle="State-of-the-art infrastructure meeting international standards"
-        bgImage={cldUrl("adc/hero/clinical-setup-hero")}
+        bgImage={cldUrl("hero/clinical-setup-hero")}
       />
 
       <main>

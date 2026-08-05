@@ -22,7 +22,7 @@ export function HeroWithDoctor() {
             {/* Image Container with Proper Aspect Ratio & Alignment */}
             <div className="relative h-[480px] sm:h-[550px] lg:h-[620px] w-full rounded-[2.5rem] overflow-hidden bg-slate-100 shadow-xl border-4 border-white group">
               <CldImage
-                src="adc/home/hero-doctor-photo"
+                src="home/hero-doctor-photo"
                 alt="Dr. Akhilesh Mulchandani, Chief Dental Surgeon at Advanced Dental Clinic Jabalpur"
                 fill
                 priority

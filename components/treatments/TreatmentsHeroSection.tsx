@@ -9,7 +9,7 @@ export default function TreatmentsHeroSection() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 hover:scale-105"
-        style={{ backgroundImage: `url('${cldUrl("adc/hero/treatments-page-hero")}')` }}
+        style={{ backgroundImage: `url('${cldUrl("hero/treatments-page-hero")}')` }}
       />
       
       {/* Premium Dark/Blue Overlay for Readability */}

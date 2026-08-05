@@ -6,9 +6,9 @@ import { CldImage } from 'next-cloudinary';
 import { cldUrl } from '@/lib/cloudinary';
 
 const IMAGES = [
-  "adc/awards/digital-orthodontics-award",
-  "adc/awards/porcelain-veneers-award",
-  "adc/awards/oral-lesion-award",
+  "awards/digital-orthodontics-award",
+  "awards/porcelain-veneers-award",
+  "awards/oral-lesion-award",
 ];
 
 export default function AchievementsAwards() {
@@ -25,7 +25,7 @@ export default function AchievementsAwards() {
   return (
     <section 
       className="py-24 relative overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: `url('${cldUrl('adc/hero/achievements-section-hero')}')` }}
+      style={{ backgroundImage: `url('${cldUrl('hero/achievements-section-hero')}')` }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/75 z-0" />

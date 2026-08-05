@@ -19,7 +19,7 @@ export default function DoctorsPage() {
       <PageBanner 
         title="Meet Our Expert Doctors"
         subtitle="Highly qualified specialists with international training and experience"
-        bgImage={cldUrl("adc/hero/doctors-page-hero")}
+        bgImage={cldUrl("hero/doctors-page-hero")}
         bgPosition="bg-[center_35%]"
         bgSize="bg-cover scale-[1.15]"
         contentClassName="translate-y-16 md:translate-y-20"

@@ -1,7 +1,10 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, ChevronRight } from 'lucide-react';
 import { CLINIC } from '@/lib/data/site';
+import { CldImage } from 'next-cloudinary';
 
 
 export function Footer() {
@@ -14,10 +17,12 @@ export function Footer() {
           <div className="lg:col-span-4 pr-4">
             <div className="flex flex-col items-start mb-6">
               <div className="flex items-center gap-3 mb-2">
-                <img 
-                  src="/images/logo.jpeg" 
-                  alt="Advanced Ranjhi Dental Logo" 
-                  className="h-20 w-auto" 
+                <CldImage
+                  src="branding/advanced-dental-clinic-logo"
+                  alt="Advanced Ranjhi Dental Logo"
+                  width={320}
+                  height={80}
+                  className="h-20 w-auto"
                   style={{ filter: 'invert(1)', mixBlendMode: 'screen' }}
                 />
               </div>
