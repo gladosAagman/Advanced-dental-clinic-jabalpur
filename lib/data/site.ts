@@ -57,7 +57,7 @@ export const TREATMENTS = [
     shortDesc: "Straight teeth transformation",
     fullDesc: "Expert orthodontic solutions for perfect tooth alignment using latest technology including traditional braces and modern aligners.",
     image: "patients/patient-treatment-02",
-    bgImage: '/images/orthodontics_new.png',
+    bgImage: 'gallery/orthodontic-transformation-case',
     services: [
       { name: "Fixed Braces", desc: "Traditional metal braces for effective tooth alignment" },
       { name: "Ceramic Braces", desc: "Tooth-colored braces for aesthetic appearance" },
@@ -110,7 +110,7 @@ export const TREATMENTS = [
     shortDesc: "Smile makeover services",
     fullDesc: "Transform your smile with comprehensive cosmetic dental procedures to enhance beauty and confidence.",
     image: "patients/patient-treatment-03",
-    bgImage: '/images/Cosmetic Dentistry.png',
+    bgImage: 'gallery/professional-teeth-whitening',
 
     services: [
       { name: "Teeth Whitening", desc: "Professional bleaching for bright white smile" },
@@ -192,7 +192,7 @@ export const TREATMENTS = [
     shortDesc: "Dental health maintenance",
     fullDesc: "Professional preventive care to maintain optimal oral health and prevent future problems.",
     image: "patients/patient-treatment-06",
-    bgImage: '/images/Preventive Care_new.png',
+    bgImage: 'patients/patient-treatment-06',
 
     services: [
       { name: "Regular Checkups", desc: "Bi-annual dental examination" },

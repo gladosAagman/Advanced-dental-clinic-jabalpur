@@ -2,7 +2,7 @@ import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
 import { CTA } from '@/components/home/CTA'
 import { Metadata } from 'next'
-import Image from 'next/image'
+import { cldUrl } from '@/lib/cloudinary'
 import { treatmentServices } from '@/lib/data/treatmentServices'
 import { CheckCircle2, Clock, Award, Users } from 'lucide-react'
 
@@ -38,11 +38,11 @@ export default function DentalBracesPage() {
           </div>
 
           <div className="relative h-96 rounded-3xl overflow-hidden shadow-2xl">
-            <Image
-              src="/images/orthodontics.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={cldUrl("gallery/orthodontic-transformation-case")}
               alt="Dental braces treatment"
-              fill
-              className="object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>

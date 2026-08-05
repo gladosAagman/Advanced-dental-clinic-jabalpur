@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 import { beforeAfterResults } from '@/lib/data/beforeAfter'
 
 export function BeforeAfterGallery() {
@@ -40,9 +40,9 @@ export function BeforeAfterGallery() {
                 {/* Before */}
                 <div className="flex-1">
                   <div className="bg-gray-200 h-80 relative">
-                    <Image
+                    <CldImage
                       src={currentCase.before}
-                      alt="Before treatment"
+                      alt={`${currentCase.title} - before treatment`}
                       fill
                       className="object-cover"
                     />
@@ -53,9 +53,9 @@ export function BeforeAfterGallery() {
                 {/* After */}
                 <div className="flex-1">
                   <div className="bg-gray-200 h-80 relative">
-                    <Image
+                    <CldImage
                       src={currentCase.after}
-                      alt="After treatment"
+                      alt={`${currentCase.title} - after treatment`}
                       fill
                       className="object-cover"
                     />

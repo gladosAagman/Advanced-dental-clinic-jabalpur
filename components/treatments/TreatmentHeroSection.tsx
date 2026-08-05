@@ -51,7 +51,7 @@ interface TreatmentHeroSectionProps {
 export default function TreatmentHeroSection({ 
   name, 
   description, 
-  bgImage = "/images/hero-dental.png" // Default Background Image
+  bgImage = "hero/clinical-setup-hero" // Default Background Image
 }: TreatmentHeroSectionProps) {
   return (
     <section className="relative pt-20 pb-32 md:pt-32 md:pb-40 overflow-hidden bg-slate-900">
