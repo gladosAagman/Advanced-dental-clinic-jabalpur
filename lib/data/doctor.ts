@@ -1,5 +1,5 @@
 export const doctorProfile = {
-  name: 'Dr. Abhisek Ghosh',
+  name: 'Dr. Akhilesh Mulchandani',
   title: 'Consultant Orthodontist & Chief Dentist',
   qualifications: [
     'B.D.S (Chen)',
@@ -24,9 +24,9 @@ export const doctorProfile = {
     'Certified in Lingual Orthodontics (Incognito)',
     'Chief Consultant Orthodontist, Apollo Clinics, Kolkata',
     'National Panel Speaker, Indian Orthodontic Society',
-    'Director, Great Lakes Dental Clinic and Orthodontic Centre',
+    'Director, Advanced Dental Clinic Jabalpur and Orthodontic Centre',
   ],
-  bio: 'Dr. Abhisek Ghosh is a renowned orthodontist with over 20 years of experience in advanced dental care. With multiple international qualifications and memberships from prestigious dental colleges worldwide, he brings world-class expertise to every patient case. His passion for creating beautiful smiles and his commitment to excellence have made him a trusted name in dentistry across India and internationally.',
+  bio: 'Dr. Akhilesh Mulchandani is a renowned orthodontist with over 20 years of experience in advanced dental care. With multiple international qualifications and memberships from prestigious dental colleges worldwide, he brings world-class expertise to every patient case. His passion for creating beautiful smiles and his commitment to excellence have made him a trusted name in dentistry across India and internationally.',
   expertise: [
     'Orthodontics',
     'Invisalign Treatment',

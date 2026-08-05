@@ -3,7 +3,7 @@ export const treatmentServices = {
     id: 'dental-braces',
     title: 'Dental Braces',
     shortDescription: 'Align your teeth with modern braces technology',
-    fullDescription: `Dental braces are a time-tested orthodontic solution that have helped millions of patients achieve straighter, more beautiful smiles. Whether you need metal braces, ceramic braces, or advanced self-ligating systems, our clinic offers comprehensive orthodontic treatment using the latest technology and techniques. Dr. Abhisek Ghosh specializes in creating personalized treatment plans that deliver exceptional results in the most comfortable way possible.
+    fullDescription: `Dental braces are a time-tested orthodontic solution that have helped millions of patients achieve straighter, more beautiful smiles. Whether you need metal braces, ceramic braces, or advanced self-ligating systems, our clinic offers comprehensive orthodontic treatment using the latest technology and techniques. Dr. Akhilesh Mulchandani specializes in creating personalized treatment plans that deliver exceptional results in the most comfortable way possible.
 
 Our braces are designed not only to straighten teeth but also to correct bite problems, improve oral health, and enhance your overall facial aesthetics. With advances in orthodontic technology, modern braces are more comfortable, less noticeable, and work faster than ever before. We offer various options to suit your preferences and lifestyle.`,
     benefits: [
@@ -79,7 +79,7 @@ Our braces are designed not only to straighten teeth but also to correct bite pr
     shortDescription: 'Invisible teeth straightening with clear aligners',
     fullDescription: `Invisalign is a revolutionary orthodontic treatment that uses a series of custom-made, clear plastic aligners to gradually straighten your teeth. Unlike traditional braces, Invisalign aligners are virtually invisible, removable, and provide exceptional comfort while effectively correcting misaligned teeth.
 
-Dr. Abhisek Ghosh is a Gold Invisalign Provider with extensive experience in treating complex cases with clear aligners. This advanced technology offers patients the freedom to maintain their lifestyle while achieving their dream smile. Whether you have minor crowding or significant bite issues, Invisalign can provide an elegant solution.`,
+Dr. Akhilesh Mulchandani is a Gold Invisalign Provider with extensive experience in treating complex cases with clear aligners. This advanced technology offers patients the freedom to maintain their lifestyle while achieving their dream smile. Whether you have minor crowding or significant bite issues, Invisalign can provide an elegant solution.`,
     benefits: [
       'Nearly invisible appearance - straighten teeth without anyone noticing',
       'Removable aligners for easy eating, drinking, and oral hygiene',
@@ -131,7 +131,7 @@ Dr. Abhisek Ghosh is a Gold Invisalign Provider with extensive experience in tre
     shortDescription: 'Transform your smile with advanced cosmetic treatments',
     fullDescription: `Cosmetic dentistry focuses on enhancing the appearance of your teeth, gums, and smile. Whether you want to brighten discolored teeth, close gaps, reshape uneven teeth, or create a complete smile makeover, our cosmetic dentistry services can help you achieve the smile of your dreams.
 
-Dr. Abhisek Ghosh combines artistic vision with advanced dental techniques to create natural-looking, beautiful results that complement your facial features and personality. Every smile is unique, and we tailor our cosmetic treatments to your specific needs and desires.`,
+Dr. Akhilesh Mulchandani combines artistic vision with advanced dental techniques to create natural-looking, beautiful results that complement your facial features and personality. Every smile is unique, and we tailor our cosmetic treatments to your specific needs and desires.`,
     treatments: [
       {
         name: 'Professional Teeth Whitening',
@@ -196,7 +196,7 @@ Dr. Abhisek Ghosh combines artistic vision with advanced dental techniques to cr
     shortDescription: 'Replace missing teeth with permanent implant solutions',
     fullDescription: `Dental implants are the gold standard for replacing missing teeth. A dental implant is a titanium screw that is surgically placed in the jawbone to serve as an artificial tooth root. Once integrated with the bone, a crown is attached to the implant creating a replacement tooth that looks, feels, and functions like a natural tooth.
 
-Unlike bridges or dentures, implants preserve jawbone structure, provide superior comfort, and offer a permanent solution with a success rate exceeding 95%. Dr. Abhisek Ghosh and our surgical team have extensive experience placing implants with precision and achieving excellent long-term outcomes.`,
+Unlike bridges or dentures, implants preserve jawbone structure, provide superior comfort, and offer a permanent solution with a success rate exceeding 95%. Dr. Akhilesh Mulchandani and our surgical team have extensive experience placing implants with precision and achieving excellent long-term outcomes.`,
     benefits: [
       'Permanent replacement for missing teeth lasting 20+ years',
       'Natural appearance and feel identical to real teeth',

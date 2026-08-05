@@ -7,8 +7,9 @@ import { treatmentServices } from '@/lib/data/treatmentServices'
 import { Sparkles } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Cosmetic Dentistry | Great Lakes Dental Clinic',
+  title: 'Cosmetic Dentistry',
   description: 'Transform your smile with professional cosmetic dentistry. Teeth whitening, veneers, smile design, and more.',
+  alternates: { canonical: '/cosmetic-dentistry' },
 }
 
 export default function CosmeticDentistryPage() {

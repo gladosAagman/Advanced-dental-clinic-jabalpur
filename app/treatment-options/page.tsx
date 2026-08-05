@@ -10,8 +10,9 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
-  title: 'Treatment Options | Great Lakes Dental Clinic',
-  description: 'Explore comprehensive dental treatments including orthodontics, implants, cosmetic dentistry, and more at Great Lakes Dental Clinic.',
+  title: 'Treatment Options',
+  description: 'Explore comprehensive dental treatments including orthodontics, implants, cosmetic dentistry, and more at Advanced Dental Clinic Jabalpur.',
+  alternates: { canonical: '/treatment-options' },
 }
 
 export default function TreatmentOptionsPage() {

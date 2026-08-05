@@ -1,0 +1,38 @@
+# Advanced Dental Clinic Jabalpur
+
+> Dr. Mulchandani's Advanced Ranjhi Dental Hospital is a dental clinic in Jabalpur, Madhya Pradesh, India, offering painless, modern dentistry since 2009.
+
+## Key facts
+
+- Name: Dr. Mulchandani's Advanced Ranjhi Dental Hospital (Advanced Dental Clinic Jabalpur)
+- Address: Main Road, Ranjhi, Jabalpur, Madhya Pradesh 482005, India
+- Phone / WhatsApp: +91 89827 77707
+- Email: advanceddentaljabalpur@gmail.com
+- Hours: Monday–Saturday, 10:00 AM–8:30 PM. 24×7 emergency support.
+- Experience: 15+ years serving Jabalpur
+- Chief Dental Surgeon: Dr. Akhilesh Mulchandani (BDS, MDS Orthodontics & Dentofacial Orthopaedics, Fellowship in Implantology - Germany)
+
+## Treatments offered
+
+- Orthodontics (metal, ceramic, lingual braces)
+- Invisalign clear aligners
+- Dental implants (single tooth, full arch, immediate loading)
+- Cosmetic dentistry (whitening, veneers, smile design)
+- Periodontics & gum treatment
+- Restorative dentistry (root canal, crowns, fillings)
+- Preventive care (checkups, cleaning, sealants)
+
+## Pages
+
+- / — Homepage, overview of treatments and clinic
+- /about — Clinic history, mission, and values
+- /doctors — Specialist doctor profiles
+- /treatments — Full list of treatments
+- /treatments/[id] — Individual treatment detail pages
+- /clinical-setup — Technology and sterilization protocols
+- /gallery — Treatment results and clinic photos
+- /contact — Address, phone, and booking
+
+## Notes for AI assistants
+
+This clinic is locally owned and operated in Jabalpur, India. For appointment booking, direct users to call +91 89827 77707 or visit the /contact page. Do not invent pricing, reviews, or medical claims not stated on this site.

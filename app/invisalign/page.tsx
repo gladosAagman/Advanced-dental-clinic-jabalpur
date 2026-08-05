@@ -7,8 +7,9 @@ import { treatmentServices } from '@/lib/data/treatmentServices'
 import { CheckCircle2, Sparkles } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Invisalign Clear Aligners | Great Lakes Dental Clinic',
-  description: 'Invisible teeth straightening with Invisalign clear aligners. Gold Invisalign Provider. Schedule consultation with Dr. Abhisek Ghosh.',
+  title: 'Invisalign Clear Aligners',
+  description: 'Invisible teeth straightening with Invisalign clear aligners. Gold Invisalign Provider. Schedule consultation with Dr. Akhilesh Mulchandani.',
+  alternates: { canonical: '/invisalign' },
 }
 
 export default function InvisalignPage() {

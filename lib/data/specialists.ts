@@ -1,7 +1,7 @@
 export const specialists = [
   {
     id: 1,
-    name: 'Dr. Abhisek Ghosh',
+    name: 'Dr. Akhilesh Mulchandani',
     specialty: 'Orthodontist',
     title: 'Chief Consultant & Orthodontist',
     description: 'Expert in braces, aligners, and comprehensive orthodontic treatment. International qualifications and 20+ years experience.',

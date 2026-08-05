@@ -7,8 +7,9 @@ import { treatmentServices } from '@/lib/data/treatmentServices'
 import { CheckCircle2, Award } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Dental Implants | Great Lakes Dental Clinic',
+  title: 'Dental Implants',
   description: 'Premium dental implants for missing teeth replacement. Expert implant dentistry with 95%+ success rate.',
+  alternates: { canonical: '/dental-implants' },
 }
 
 export default function DentalImplantsPage() {

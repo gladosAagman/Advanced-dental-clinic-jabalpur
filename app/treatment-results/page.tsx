@@ -8,8 +8,9 @@ import { Testimonials } from '@/components/home/Testimonials'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Treatment Results | Great Lakes Dental Clinic',
+  title: 'Treatment Results',
   description: 'View real patient smile transformations and before-after results from our dental treatments including braces, Invisalign, and cosmetic dentistry.',
+  alternates: { canonical: '/treatment-results' },
 }
 
 const galleryCategories = [

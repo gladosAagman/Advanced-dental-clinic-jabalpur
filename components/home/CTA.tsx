@@ -22,7 +22,7 @@ export function CTA() {
             Ready for Your Perfect Smile?
           </h2>
           <p className="text-xl text-blue-100 mb-12 leading-relaxed">
-            Schedule your free consultation with Dr. Abhisek Ghosh today and take the first step towards a confident, beautiful smile.
+            Schedule your free consultation with Dr. Akhilesh Mulchandani today and take the first step towards a confident, beautiful smile.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

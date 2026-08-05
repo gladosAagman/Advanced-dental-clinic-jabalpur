@@ -8,7 +8,7 @@ export const aboutUsContent = {
   sections: [
     {
       heading: "About Us",
-      content: "Built on trust and efficiency, Great Lakes Dental Clinic and Orthodontic Care is one of the best dental clinics in Kolkata. Home to highly skilled and experienced dentists, the multi-specialty dental clinic is equipped with the latest medical technology to deliver a world-class dental experience.",
+      content: "Built on trust and efficiency, Advanced Dental Clinic Jabalpur and Orthodontic Care is one of the best dental clinics in Kolkata. Home to highly skilled and experienced dentists, the multi-specialty dental clinic is equipped with the latest medical technology to deliver a world-class dental experience.",
     },
     {
       heading: "A Centre of Clinical Excellence for Everyone",
@@ -39,7 +39,7 @@ export const aboutUsContent = {
     },
     {
       heading: "Why Us?",
-      content: "At Great Lakes Dental Clinic and Orthodontic Care, every patient deserves a healthy and confident smile. The clinic focuses on building long-term relationships with patients through transparency, quality care, and ethical treatment practices.",
+      content: "At Advanced Dental Clinic Jabalpur and Orthodontic Care, every patient deserves a healthy and confident smile. The clinic focuses on building long-term relationships with patients through transparency, quality care, and ethical treatment practices.",
       highlights: [
         "Best Orthodontist in Kolkata",
         "Top Cosmetic Dentist",
@@ -68,7 +68,7 @@ export const treatmentOptionsContent = {
   hero: {
     heading: "Treatment Options",
   },
-  intro: "Great Lakes Dental Clinic offers a complete range of modern dental treatments under one roof. Each department is managed by experienced specialists using advanced technology and internationally accepted treatment protocols.",
+  intro: "Advanced Dental Clinic Jabalpur offers a complete range of modern dental treatments under one roof. Each department is managed by experienced specialists using advanced technology and internationally accepted treatment protocols.",
   departments: [
     {
       name: "ORTHODONTICS",
@@ -139,7 +139,7 @@ export const clinicalSetupContent = {
   sections: [
     {
       heading: "ISO Certified Clinic",
-      content: "Great Lakes Dental Clinic is an ISO-certified dental clinic dedicated to maintaining internationally recognized quality standards. The clinic emphasizes quality dental treatment, international certifications, standardized management systems, modern infrastructure, latest dental equipment, orthodontic technology, in-house dental X-ray, dental implant systems, and cosmetic smile designing equipment.",
+      content: "Advanced Dental Clinic Jabalpur is an ISO-certified dental clinic dedicated to maintaining internationally recognized quality standards. The clinic emphasizes quality dental treatment, international certifications, standardized management systems, modern infrastructure, latest dental equipment, orthodontic technology, in-house dental X-ray, dental implant systems, and cosmetic smile designing equipment.",
       highlights: [
         "ISO Certified",
         "International Quality Standards",
@@ -151,7 +151,7 @@ export const clinicalSetupContent = {
     },
     {
       heading: "iTero Clinical Setup",
-      content: "The clinic utilizes advanced iTero digital scanners to improve diagnosis, treatment planning, and patient experience. Great Lakes Dental Clinic was the first dental braces clinic in Kolkata and Eastern India to implement this digital workflow. The clinic was also the first in Eastern India to own the iTero Element 2 scanner for clear aligner treatment planning.",
+      content: "The clinic utilizes advanced iTero digital scanners to improve diagnosis, treatment planning, and patient experience. Advanced Dental Clinic Jabalpur was the first dental braces clinic in Kolkata and Eastern India to implement this digital workflow. The clinic was also the first in Eastern India to own the iTero Element 2 scanner for clear aligner treatment planning.",
       features: [
         "High-speed digital scanning",
         "Accurate visualization",
@@ -223,7 +223,7 @@ export const contactUsContent = {
     heading: "Contact Us",
   },
   contactInfo: {
-    name: "Great Lakes Dental Clinic & Orthodontic Centre",
+    name: "Advanced Dental Clinic Jabalpur & Orthodontic Centre",
     address: "27, Janak Road\nBehind Lake Mall\nKalighat\nKolkata – 700029\nWest Bengal, India",
     phones: ["+91 92947 77707"],
     landline: "",

@@ -1,5 +1,5 @@
 export const clinicInfo = {
-  name: 'Great Lakes Dental Clinic & Orthodontic Centre',
+  name: 'Advanced Dental Clinic Jabalpur & Orthodontic Centre',
   tagline: 'A Multispeciality Dental Centre of Excellence',
   tagline2: 'Painless Dental Care',
   

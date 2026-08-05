@@ -7,8 +7,9 @@ import { treatmentServices } from '@/lib/data/treatmentServices'
 import { CheckCircle2, Clock, Award, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Dental Braces | Great Lakes Dental Clinic',
-  description: 'Professional dental braces treatment including metal, ceramic, and self-ligating options. Expert orthodontist Dr. Abhisek Ghosh.',
+  title: 'Dental Braces',
+  description: 'Professional dental braces treatment including metal, ceramic, and self-ligating options. Expert orthodontist Dr. Akhilesh Mulchandani.',
+  alternates: { canonical: '/dental-braces' },
 }
 
 export default function DentalBracesPage() {

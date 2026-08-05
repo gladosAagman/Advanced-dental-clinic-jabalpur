@@ -60,7 +60,7 @@ export function Hero() {
               variants={itemVariants}
               className="text-lg text-gray-600 max-w-md leading-relaxed"
             >
-              Experience world-class dentistry with Dr. Abhisek Ghosh. Advanced treatments, international standards, and your perfect smile awaits.
+              Experience world-class dentistry with Dr. Akhilesh Mulchandani. Advanced treatments, international standards, and your perfect smile awaits.
             </motion.p>
 
             {/* Doctor Info */}

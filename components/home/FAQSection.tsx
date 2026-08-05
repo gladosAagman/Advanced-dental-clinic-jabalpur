@@ -7,8 +7,29 @@ import { useState } from 'react'
 export default function FAQSection() {
   const [expanded, setExpanded] = useState<number | null>(0)
 
+  // FAQPage structured data: answer engines (Google AI Overviews, ChatGPT,
+  // Perplexity, etc.) lift Q&A pairs straight from this markup, so it's
+  // worth keeping in sync with the FAQ array above.
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: FAQ.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  }
+
   return (
     <section className="py-24 md:py-32 bg-white">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           
