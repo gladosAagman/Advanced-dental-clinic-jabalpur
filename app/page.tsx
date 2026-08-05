@@ -14,7 +14,7 @@ import FAQSection from '@/components/home/FAQSection'
 import CTASection from '@/components/home/CTASection'
 import { TREATMENTS } from '@/lib/data/site'
 import Link from 'next/link'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 
 export default function Home() {
   return (
@@ -58,7 +58,7 @@ export default function Home() {
                   {/* Image Section (16:9 Ratio) */}
                   <div className="relative w-full aspect-video bg-gray-100 overflow-hidden">
                     {treatment.image && (
-                      <Image
+                      <CldImage
                         src={treatment.image}
                         alt={treatment.name}
                         fill

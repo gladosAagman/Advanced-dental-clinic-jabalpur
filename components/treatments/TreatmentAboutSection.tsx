@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 
 interface Service {
   name: string
@@ -27,7 +27,7 @@ export default function TreatmentAboutSection({
       {/* Image */}
       <div className="h-96 md:h-[500px] bg-gradient-to-br from-[#0F4C81] to-[#6BA3D4] rounded-3xl flex items-center justify-center overflow-hidden mb-12 relative">
         {image ? (
-          <Image
+          <CldImage
             src={image}
             alt={name}
             fill

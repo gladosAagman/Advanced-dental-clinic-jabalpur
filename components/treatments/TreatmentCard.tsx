@@ -68,7 +68,7 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 
 interface TreatmentCardProps {
   id: string
@@ -95,7 +95,7 @@ export default function TreatmentCard({
       {/* Image Container */}
       <div className="w-full aspect-[4/3] bg-slate-100 relative overflow-hidden">
         {image ? (
-          <Image
+          <CldImage
             src={image}
             alt={name}
             fill

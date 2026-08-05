@@ -2,6 +2,7 @@
 
 import { TECHNOLOGIES } from '@/lib/data/site'
 import { Zap, Radio, Eye, Cpu, Smartphone, Shield, PenToolIcon, Sparkles } from 'lucide-react'
+import { CldImage } from 'next-cloudinary'
 
 // Map the correct icons to match the design precisely
 const getTechIcon = (name: string) => {
@@ -42,12 +43,12 @@ export default function ModernTechnology() {
               {/* Image Container with fixed height (260px), rounded corners (20px), object-fit */}
               {tech.image && (
                 <div className="w-full relative h-65 overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <CldImage
                     src={tech.image}
                     alt={tech.name}
+                    fill
                     loading="lazy"
-                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
+                    className="object-cover object-center group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
               )}

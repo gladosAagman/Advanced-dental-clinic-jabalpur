@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 
 interface FeaturedTreatmentCardProps {
   id: string
@@ -26,7 +26,7 @@ export default function FeaturedTreatmentCard({
       {/* Image or Icon placeholder */}
       <div className="h-48 bg-gradient-to-br from-[#0F4C81] to-[#6BA3D4] flex items-center justify-center group-hover:scale-105 transition-transform overflow-hidden relative">
         {image ? (
-          <Image
+          <CldImage
             src={image}
             alt={name}
             fill

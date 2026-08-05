@@ -52,6 +52,8 @@
 
 'use client'
 
+import { CldImage } from 'next-cloudinary'
+
 interface DoctorCardProps {
   id: string
   name: string
@@ -73,13 +75,14 @@ export default function DoctorCard({
       {/* Image Height ko 80 (320px) badha diya hai taaki card bada aur clear dikhe */}
       <div className="h-80 w-full bg-gray-100 relative overflow-hidden rounded-t-2xl flex-shrink-0">
         {image ? (
-          <img
+          <CldImage
             src={image}
             alt={name}
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
             style={{
               // CSS inline style se custom object-position accurate apply hota hai
-              objectPosition: imagePosition 
+              objectPosition: imagePosition
                 ? imagePosition.replace('object-', '').replace('[', '').replace(']', '')
                 : 'top'
             }}
