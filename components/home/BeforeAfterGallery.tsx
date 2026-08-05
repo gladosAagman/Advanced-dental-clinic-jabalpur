@@ -44,6 +44,7 @@ export function BeforeAfterGallery() {
                       src={currentCase.before}
                       alt={`${currentCase.title} - before treatment`}
                       fill
+                      sizes="(max-width: 1024px) 50vw, 25vw"
                       className="object-cover"
                     />
                   </div>
@@ -57,6 +58,7 @@ export function BeforeAfterGallery() {
                       src={currentCase.after}
                       alt={`${currentCase.title} - after treatment`}
                       fill
+                      sizes="(max-width: 1024px) 50vw, 25vw"
                       className="object-cover"
                     />
                   </div>

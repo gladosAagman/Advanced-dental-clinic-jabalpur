@@ -14,6 +14,7 @@ export default function TrustBadgesMarquee() {
           animation: scroll-left 30s linear infinite;
           display: flex;
           gap: 2rem;
+          will-change: transform;
         }
         .marquee-container:hover .marquee-content {
           animation-play-state: paused;

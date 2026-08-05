@@ -61,6 +61,7 @@ export default function TreatmentHeroSection({
         alt={`${name} background`}
         fill
         priority
+        sizes="100vw"
         className="object-cover object-center z-0"
       />
 

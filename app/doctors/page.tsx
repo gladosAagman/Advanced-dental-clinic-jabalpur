@@ -36,6 +36,7 @@ export default function DoctorsPage() {
                       src={doctor.image}
                       alt={doctor.name}
                       fill
+                      sizes="(max-width: 1024px) 100vw, 50vw"
                       className={`object-cover drop-shadow-sm ${(doctor as any).imagePosition || 'object-center'}`}
                     />
                   </div>

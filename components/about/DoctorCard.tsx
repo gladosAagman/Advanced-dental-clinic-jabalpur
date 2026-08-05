@@ -79,6 +79,7 @@ export default function DoctorCard({
             src={image}
             alt={name}
             fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             className="object-cover"
             style={{
               // CSS inline style se custom object-position accurate apply hota hai

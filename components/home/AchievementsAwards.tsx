@@ -76,9 +76,9 @@ export default function AchievementsAwards() {
                       <CldImage
                         src={img}
                         alt={`Advanced Dental Clinic Jabalpur award certificate ${idx + 1}`}
-                        width={400}
-                        height={400}
-                        className="w-full h-full object-contain"
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                        className="object-contain"
                       />
                     </div>
                   </div>

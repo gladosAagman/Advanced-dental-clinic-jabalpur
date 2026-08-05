@@ -38,10 +38,11 @@ export function WhyChooseUs() {
 
             {/* Image Container */}
             <div className="relative flex-grow min-h-[400px] rounded-[2rem] overflow-hidden mt-auto">
-              <CldImage 
-                src="team/clinic-team-photo-01" 
-                alt="Modern Clinical Setup" 
-                fill 
+              <CldImage
+                src="team/clinic-team-photo-01"
+                alt="Modern Clinical Setup"
+                fill
+                sizes="(max-width: 1024px) 100vw, 42vw"
                 className="object-cover bg-gray-200"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A]/90 via-[#0F172A]/20 to-transparent" />
@@ -65,11 +66,12 @@ export function WhyChooseUs() {
                   {/* Optional Background Image */}
                   {feature.image && (
                     <>
-                      <CldImage 
-                        src={feature.image} 
-                        alt={feature.title} 
-                        fill 
-                        className="object-cover z-0 transition-transform duration-700 group-hover:scale-105" 
+                      <CldImage
+                        src={feature.image}
+                        alt={feature.title}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 35vw"
+                        className="object-cover z-0 transition-transform duration-700 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 z-0 bg-gradient-to-t from-[#0F172A]/90 via-[#0F172A]/40 to-transparent mix-blend-multiply" />
                     </>

@@ -31,6 +31,7 @@ export default function TreatmentAboutSection({
             src={image}
             alt={name}
             fill
+            sizes="(max-width: 1024px) 100vw, 70vw"
             className="object-cover"
           />
         ) : (

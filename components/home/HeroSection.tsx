@@ -95,6 +95,7 @@ export default function HeroSection() {
                 src="patients/patient-treatment-01"
                 alt="Patient receiving dental treatment at Advanced Dental Clinic Jabalpur"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover object-center"
                 priority
               />
