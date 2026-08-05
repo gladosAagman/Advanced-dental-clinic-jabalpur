@@ -1,6 +1,6 @@
 'use client'
 import { CheckCircle2, Sparkles } from 'lucide-react'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 import Link from 'next/link'
 
 export function HeroWithDoctor() {
@@ -21,9 +21,9 @@ export function HeroWithDoctor() {
           <div className="relative">
             {/* Image Container with Proper Aspect Ratio & Alignment */}
             <div className="relative h-[480px] sm:h-[550px] lg:h-[620px] w-full rounded-[2.5rem] overflow-hidden bg-slate-100 shadow-xl border-4 border-white group">
-              <Image
-                src="/images/image copy.png"
-                alt="Dr. Akhilesh Mulchandani"
+              <CldImage
+                src="adc/home/hero-doctor-photo"
+                alt="Dr. Akhilesh Mulchandani, Chief Dental Surgeon at Advanced Dental Clinic Jabalpur"
                 fill
                 priority
                 className="object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"

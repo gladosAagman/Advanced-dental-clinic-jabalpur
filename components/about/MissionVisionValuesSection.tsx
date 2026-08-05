@@ -1,21 +1,21 @@
 'use client'
 
-import Image from 'next/image';
+import { CldImage } from 'next-cloudinary';
 
 export default function MissionVisionValuesSection() {
   const cards = [
     {
-      image: '/images/IMG_7038.JPG.jpeg',
+      image: 'adc/team/clinic-team-photo-02',
       title: 'Our Mission',
       desc: 'To deliver world-class dental care that is painless, ethical and affordable for every patient that walks through our doors.'
     },
     {
-      image: '/images/IMG_7043.JPG.jpeg',
+      image: 'adc/team/clinic-team-photo-01',
       title: 'Our Vision',
       desc: 'To be central India\'s most trusted dental hospital — a benchmark for clinical excellence and patient experience.'
     },
     {
-      image: '/images/IMG_7086.JPG.jpeg',
+      image: 'adc/team/clinic-team-photo-03',
       title: 'Our Values',
       desc: 'Integrity, compassion, precision and a relentless commitment to continuous learning and patient comfort.'
     }
@@ -32,7 +32,7 @@ export default function MissionVisionValuesSection() {
             >
               {/* Image Container */}
               <div className="w-full h-56 relative bg-gray-100">
-                <Image
+                <CldImage
                   src={card.image}
                   alt={card.title}
                   fill

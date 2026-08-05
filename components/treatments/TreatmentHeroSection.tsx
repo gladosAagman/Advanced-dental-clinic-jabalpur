@@ -40,7 +40,7 @@
 
 'use client'
 
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 
 interface TreatmentHeroSectionProps {
   name: string
@@ -56,7 +56,7 @@ export default function TreatmentHeroSection({
   return (
     <section className="relative pt-20 pb-32 md:pt-32 md:pb-40 overflow-hidden bg-slate-900">
       {/* Hero Background Image */}
-      <Image
+      <CldImage
         src={bgImage}
         alt={`${name} background`}
         fill

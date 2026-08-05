@@ -2,7 +2,7 @@
 
 import { CLINIC } from '@/lib/data/site'
 import { Phone, Star, Shield, Users } from 'lucide-react'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 import Link from 'next/link'
 
 export default function HeroSection() {
@@ -91,9 +91,9 @@ export default function HeroSection() {
           <div className="relative h-[500px] md:h-[650px] w-full mt-12 lg:mt-0 max-w-[650px] ml-auto group" style={{ animation: 'float-badge 8s ease-in-out infinite' }}>
             {/* The actual image mask - rounded corners similar to reference */}
             <div className="absolute inset-y-4 right-4 md:inset-y-8 md:right-8 left-4 md:left-8 bg-gray-100 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-700 ease-out cursor-pointer">
-              <Image
-                src="/images/IMG_7025.JPG.jpeg"
-                alt="Dr. Mulchandani"
+              <CldImage
+                src="adc/patients/patient-treatment-01"
+                alt="Patient receiving dental treatment at Advanced Dental Clinic Jabalpur"
                 fill
                 className="object-cover object-center"
                 priority

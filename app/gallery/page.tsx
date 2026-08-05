@@ -1,5 +1,6 @@
 'use client'
 
+import { cldUrl } from '@/lib/cloudinary'
 import { TopBar } from '@/components/layout/TopBar'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
@@ -18,17 +19,17 @@ interface GalleryItem {
 }
 
 const MASONRY_ITEMS = [
-  { id: 1, src: '/images/IMG01.jpeg' },
-  { id: 2, src: '/images/IMGo2.jpeg' },
-  { id: 3, src: '/images/IMG03.jpeg' },
-  { id: 4, src: '/images/IMG04.jpeg' },
-  { id: 5, src: '/images/IMG05.jpeg' },
-  { id: 6, src: '/images/IMG06.jpeg' },
-  { id: 7, src: '/images/IMG07.jpeg' },
-  { id: 8, src: '/images/IMG08.jpeg' },
-  { id: 9, src: '/images/IMG09.jpeg' },
-  { id: 10, src: '/images/IMG10.jpeg' },
-  { id: 11, src: '/images/IMG_7061.JPG.jpeg' },
+  { id: 1, src: 'adc/gallery/clinic-gallery-01' },
+  { id: 2, src: 'adc/gallery/clinic-gallery-02' },
+  { id: 3, src: 'adc/gallery/clinic-gallery-03' },
+  { id: 4, src: 'adc/gallery/clinic-gallery-04' },
+  { id: 5, src: 'adc/gallery/clinic-gallery-05' },
+  { id: 6, src: 'adc/gallery/clinic-gallery-06' },
+  { id: 7, src: 'adc/gallery/clinic-gallery-07' },
+  { id: 8, src: 'adc/gallery/clinic-gallery-08' },
+  { id: 9, src: 'adc/gallery/clinic-gallery-09' },
+  { id: 10, src: 'adc/gallery/clinic-gallery-10' },
+  { id: 11, src: 'adc/gallery/clinic-gallery-11' },
 ];
 
 export default function GalleryPage() {
@@ -36,12 +37,12 @@ export default function GalleryPage() {
   const [openModal, setOpenModal] = useState<null | typeof MASONRY_ITEMS[number]>(null);
 
   const galleryItems: GalleryItem[] = [
-    { id: 1, category: 'braces', title: 'Orthodontic Transformation', image: '/images/Orthodontic Transformation.jpeg' },
-    { id: 2, category: 'implants', title: 'Dental Implant Case', image: '/images/Dental_Case.webp' },
-    { id: 3, category: 'cosmetic', title: 'Smile Makeover', image: '/images/IMG_7078.JPG.jpeg' },
-    { id: 4, category: 'braces', title: 'Complex Case Resolution', image: '/images/IMG_7090.JPG.jpeg' },
-    { id: 5, category: 'whitening', title: 'Professional Whitening', image: '/images/Whitening.png' },
-    { id: 6, category: 'implants', title: 'Full Mouth Implants', image: '/images/Implant.png' },
+    { id: 1, category: 'braces', title: 'Orthodontic Transformation', image: 'adc/gallery/orthodontic-transformation-case' },
+    { id: 2, category: 'implants', title: 'Dental Implant Case', image: 'adc/gallery/dental-implant-case' },
+    { id: 3, category: 'cosmetic', title: 'Smile Makeover', image: 'adc/gallery/smile-makeover-case' },
+    { id: 4, category: 'braces', title: 'Complex Case Resolution', image: 'adc/gallery/complex-case-resolution' },
+    { id: 5, category: 'whitening', title: 'Professional Whitening', image: 'adc/gallery/professional-teeth-whitening' },
+    { id: 6, category: 'implants', title: 'Full Mouth Implants', image: 'adc/gallery/full-mouth-implants' },
   ];
 
   const categories = ['all', 'braces', 'implants', 'cosmetic', 'whitening'];
@@ -59,7 +60,7 @@ export default function GalleryPage() {
         title="Treatment Results & Gallery"
         subtitle="See the transformations we've created for our patients"
         breadcrumb={[{ label: 'Gallery' }]}
-        bgImage="/images/IMG_7018.JPG.jpeg" 
+        bgImage={cldUrl("adc/hero/gallery-page-hero")} 
       />
 
       <main>

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { cldUrl } from '@/lib/cloudinary'
 
 export default function TreatmentsHeroSection() {
   return (
@@ -8,7 +9,7 @@ export default function TreatmentsHeroSection() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 hover:scale-105"
-        style={{ backgroundImage: "url('/images/IMG_7098.JPG.jpeg')" }}
+        style={{ backgroundImage: `url('${cldUrl("adc/hero/treatments-page-hero")}')` }}
       />
       
       {/* Premium Dark/Blue Overlay for Readability */}

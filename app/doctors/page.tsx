@@ -1,5 +1,6 @@
 'use client'
 
+import { cldUrl } from '@/lib/cloudinary'
 import { TopBar } from '@/components/layout/TopBar'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
@@ -17,7 +18,7 @@ export default function DoctorsPage() {
       <PageBanner 
         title="Meet Our Expert Doctors"
         subtitle="Highly qualified specialists with international training and experience"
-        bgImage="/images/IMG_7069.JPG.jpeg"
+        bgImage={cldUrl("adc/hero/doctors-page-hero")}
         bgPosition="bg-[center_35%]"
         bgSize="bg-cover scale-[1.15]"
         contentClassName="translate-y-16 md:translate-y-20"

@@ -2,7 +2,7 @@
 
 import { WHY_CHOOSE_US } from '@/lib/data/site'
 import { HeartPulse, Users, ShieldCheck, Wallet, Sparkles, PhoneCall } from 'lucide-react'
-import Image from 'next/image'
+import { CldImage } from 'next-cloudinary'
 
 // Map the correct icons
 const getIcon = (title: string) => {
@@ -38,8 +38,8 @@ export function WhyChooseUs() {
 
             {/* Image Container */}
             <div className="relative flex-grow min-h-[400px] rounded-[2rem] overflow-hidden mt-auto">
-              <Image 
-                src="/images/IMG_7043.JPG.jpeg" 
+              <CldImage 
+                src="adc/team/clinic-team-photo-01" 
                 alt="Modern Clinical Setup" 
                 fill 
                 className="object-cover bg-gray-200"
@@ -65,7 +65,7 @@ export function WhyChooseUs() {
                   {/* Optional Background Image */}
                   {feature.image && (
                     <>
-                      <Image 
+                      <CldImage 
                         src={feature.image} 
                         alt={feature.title} 
                         fill 

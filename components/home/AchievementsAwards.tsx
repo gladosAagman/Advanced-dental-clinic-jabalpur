@@ -2,11 +2,13 @@
 
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { CldImage } from 'next-cloudinary';
+import { cldUrl } from '@/lib/cloudinary';
 
 const IMAGES = [
-  "/images/award_digital_orthodontics.jpg",
-  "/images/award_porcelain_veneers.jpg",
-  "/images/award_oral_lesion.jpg",
+  "adc/awards/digital-orthodontics-award",
+  "adc/awards/porcelain-veneers-award",
+  "adc/awards/oral-lesion-award",
 ];
 
 export default function AchievementsAwards() {
@@ -23,7 +25,7 @@ export default function AchievementsAwards() {
   return (
     <section 
       className="py-24 relative overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/IMG_7080.JPG.jpeg')" }}
+      style={{ backgroundImage: `url('${cldUrl('adc/hero/achievements-section-hero')}')` }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/75 z-0" />
@@ -71,9 +73,11 @@ export default function AchievementsAwards() {
                     }`}
                   >
                     <div className="relative aspect-3/4 w-full bg-white rounded-xl overflow-hidden shadow-inner p-1">
-                      <img
+                      <CldImage
                         src={img}
-                        alt={`Certificate ${idx + 1}`}
+                        alt={`Advanced Dental Clinic Jabalpur award certificate ${idx + 1}`}
+                        width={400}
+                        height={400}
                         className="w-full h-full object-contain"
                       />
                     </div>

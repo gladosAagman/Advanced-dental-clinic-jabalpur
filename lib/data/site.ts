@@ -56,7 +56,7 @@ export const TREATMENTS = [
     icon: "🦷",
     shortDesc: "Straight teeth transformation",
     fullDesc: "Expert orthodontic solutions for perfect tooth alignment using latest technology including traditional braces and modern aligners.",
-    image: "/images/IMG_7084.JPG.jpeg",
+    image: "adc/patients/patient-treatment-02",
     bgImage: '/images/orthodontics_new.png',
     services: [
       { name: "Fixed Braces", desc: "Traditional metal braces for effective tooth alignment" },
@@ -82,8 +82,8 @@ export const TREATMENTS = [
     icon: "🦷",
     shortDesc: "Permanent tooth replacement",
     fullDesc: "Advanced dental implant technology for missing teeth replacement with osseointegration and lifetime durability.",
-    image: "/images/treatment-implants.png",
-    bgImage: '/images/Dental Implants_new.png',
+    image: "adc/services/dental-implants-icon",
+    bgImage: 'adc/services/dental-implants-treatment',
     services: [
       { name: "Single Tooth Implant", desc: "Replace one missing tooth" },
       { name: "Multiple Implants", desc: "Replace several teeth with multiple implants" },
@@ -109,7 +109,7 @@ export const TREATMENTS = [
     icon: "✨",
     shortDesc: "Smile makeover services",
     fullDesc: "Transform your smile with comprehensive cosmetic dental procedures to enhance beauty and confidence.",
-    image: "/images/IMG_7052.JPG.jpeg",
+    image: "adc/patients/patient-treatment-03",
     bgImage: '/images/Cosmetic Dentistry.png',
 
     services: [
@@ -137,8 +137,8 @@ export const TREATMENTS = [
     icon: "🌱",
     shortDesc: "Gum health and implantology",
     fullDesc: "Specialized treatment for gum diseases and comprehensive implant dentistry solutions.",
-    image: "/images/IMG_7097.JPG.jpeg",
-    bgImage: '/images/Periodontics & Implants_new.png',
+    image: "adc/patients/patient-treatment-04",
+    bgImage: 'adc/services/periodontics-implants-treatment',
 
     services: [
       { name: "Gum Treatment", desc: "Cure gingivitis and periodontitis" },
@@ -164,8 +164,8 @@ export const TREATMENTS = [
     icon: "🔧",
     shortDesc: "Tooth repair and restoration",
     fullDesc: "Comprehensive restoration solutions for damaged teeth using advanced materials and techniques.",
-    image: "/images/IMG_7119.JPG.jpeg",
-    bgImage: '/images/Restorative Dentistry_new.png',
+    image: "adc/patients/patient-treatment-05",
+    bgImage: 'adc/services/restorative-dentistry-treatment',
 
     services: [
       { name: "Amalgam Fillings", desc: "Traditional silver amalgam restoration" },
@@ -191,7 +191,7 @@ export const TREATMENTS = [
     icon: "🛡️",
     shortDesc: "Dental health maintenance",
     fullDesc: "Professional preventive care to maintain optimal oral health and prevent future problems.",
-    image: "/images/IMG_7112.JPG.jpeg",
+    image: "adc/patients/patient-treatment-06",
     bgImage: '/images/Preventive Care_new.png',
 
     services: [
@@ -317,7 +317,7 @@ export const DOCTORS = [
     qualifications: ["BDS", "MDS (Orthodontics & Dentofacial Orthopaedics)", "Fellowship in Implantology (Germany)"],
     experience: "15+ Years",
     bio: "Dr. Akhilesh Mulchandani is a renowned dental surgeon practicing in Jabalpur with over 15 years of experience. He specializes in complex implantology cases, full-mouth rehabilitation and painless dental procedures. Together with a team of specialists, we deliver world-class dentistry rooted in compassion, precision and modern technology.",
-    image: "/images/IMG_7025.JPG.jpeg",
+    image: "adc/patients/patient-treatment-01",
     imagePosition: "object-[center_15%]",
     certifications: [
       "BDS",
@@ -335,7 +335,7 @@ export const DOCTORS = [
     qualifications: ["BDS", "Advanced Cosmetic Training"],
     experience: "12+ Years",
     bio: "Specializing in cosmetic dentistry and smile makeovers, Dr. Priya Mulchandani creates beautiful, natural-looking smiles that boost confidence.",
-    image: "/images/IMG_7106.JPG.jpeg",
+    image: "adc/patients/patient-testimonial-01",
     imagePosition: "object-[center_45%]",
     certifications: [
       "Certified Smile Designer",
@@ -351,7 +351,7 @@ export const DOCTORS = [
     qualifications: ["BDS", "MDS ORAL AND MAXILLOFACIAL SURGEON"],
     experience: "12+ Years",
     bio: "Specializing in cosmetic dentistry and smile makeovers, Dr. Priya Mulchandani creates beautiful, natural-looking smiles that boost confidence.",
-    image: "/images/Dr_Pranav_Asati.jpeg",
+    image: "adc/doctors/dr-pranav-asati",
     imagePosition: "object-top",
     certifications: [
       "Certified Smile Designer",
@@ -368,7 +368,7 @@ export const DOCTORS = [
     qualifications: ["BDS", "MDS "],
     experience: "12+ Years",
     bio: "Specializing in cosmetic dentistry and smile makeovers, Dr. Priya Mulchandani creates beautiful, natural-looking smiles that boost confidence.",
-    image: "/images/Dr_Nishant_Shrivastava.png",
+    image: "adc/doctors/dr-nishant-shrivastava",
     imagePosition: "object-[center_45%]",
     certifications: [
       "Certified Smile Designer",
@@ -443,37 +443,37 @@ export const WHY_CHOOSE_US = [
     title: "Painless Procedures",
     description: "Advanced anesthesia & laser tools for a comfortable visit.",
     icon: "💖",
-    image: "/images/IMG_7013.JPG.jpeg"
+    image: "adc/patients/patient-story-01"
   },
   {
     title: "Specialist Team",
     description: "In-house orthodontists, endodontists and implantologists.",
     icon: "👥",
-    image: "/images/IMG_7068.JPG.jpeg"
+    image: "adc/patients/patient-story-02"
   },
   {
     title: "International Standards",
     description: "OSHA-compliant sterilization & ISO-certified workflows.",
     icon: "🏆",
-    image: "/images/IMG_7071.JPG.jpeg"
+    image: "adc/patients/patient-story-03"
   },
   {
     title: "Affordable & Transparent",
     description: "Honest pricing, EMI options, no hidden charges.",
     icon: "💼",
-    image: "/images/IMG_7130.JPG.jpeg"
+    image: "adc/patients/patient-story-04"
   },
   {
     title: "State-of-the-Art Setup",
     description: "Digital dentistry suite with the latest technology.",
     icon: "⚙️",
-    image: "/images/IMG_7114.JPG.jpeg"
+    image: "adc/patients/patient-story-05"
   },
   {
     title: "24×7 Emergency Care",
     description: "Round-the-clock support for dental emergencies.",
     icon: "📞",
-    image: "/images/IMG_7077.JPG.jpeg"
+    image: "adc/patients/patient-story-06"
   }
 ];
 
@@ -481,32 +481,32 @@ export const TECHNOLOGIES = [
   {
     name: "Digital OPG & CBCT",
     description: "3D radiographs for precise diagnosis and treatment planning.",
-    image: "/images/opg_machine_generated.png"
+    image: "adc/technology/opg-machine-scan"
   },
   {
     name: "Laser Dentistry",
     description: "Minimally invasive procedures with faster healing.",
-    image: "/images/Laser.jpg"
+    image: "adc/technology/laser-dentistry"
   },
   {
     name: "AI Dental Checkup",
     description: "Fast & contactless digital screening and accurate diagnosis.",
-    image: "/images/IMG_7128.JPG.jpeg"
+    image: "adc/technology/technology-showcase-01"
   },
   {
     name: "Microscopic Root Canal",
     description: "Painless single-sitting root canals with advanced magnification.",
-    image: "/images/Microscopic.jpeg"
+    image: "adc/technology/microscopic-dentistry"
   },
   {
     name: "Digital Smile Design",
     description: "Preview your new smile before treatment begins.",
-    image: "/images/DigitalSmile.jpeg"
+    image: "adc/technology/digital-smile-design"
   },
   {
     name: "Autoclave Sterilization",
     description: "Hospital-grade infection control, every single time.",
-    image: "/images/IMG_7134.JPG.jpeg"
+    image: "adc/technology/technology-showcase-02"
   }
 ];
 

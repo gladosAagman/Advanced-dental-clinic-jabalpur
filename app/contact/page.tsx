@@ -1,5 +1,6 @@
 'use client'
 
+import { cldUrl } from '@/lib/cloudinary'
 import { TopBar } from '@/components/layout/TopBar'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
@@ -60,7 +61,7 @@ export default function ContactPage() {
       <PageBanner 
         title="Contact Us"
         subtitle="Get in touch with our team for any queries or to book an appointment"
-        bgImage="/images/IMG_7126.JPG.jpeg"
+        bgImage={cldUrl("adc/hero/contact-page-hero")}
       />
 
       <main>

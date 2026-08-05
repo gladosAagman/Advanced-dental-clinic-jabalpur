@@ -58,7 +58,7 @@
 //       <PageBanner 
 //         title="Clinical Setup & Technology"
 //         subtitle="State-of-the-art infrastructure meeting international standards"
-//         bgImage="/images/IMG_7040.JPG.jpeg"
+//         bgImage={cldUrl("adc/hero/clinical-setup-hero")}
 //       />
 
 //       <main>
@@ -155,38 +155,39 @@ import { Footer } from '@/components/layout/Footer'
 import PageBanner from '@/components/shared/PageBanner'
 import { TECHNOLOGIES } from '@/lib/data/site'
 import { Zap } from 'lucide-react'
+import { cldUrl } from '@/lib/cloudinary'
 
 export default function ClinicalSetupPage() {
   const safetyMeasures = [
     { 
       title: 'UV Sterilization Chambers', 
       desc: 'Advanced UV technology to eliminate 99.9% of pathogens',
-      image: '/images/UV.jpg'
+      image: 'adc/clinical-setup/uv-sterilization-chamber'
     },
     { 
       title: 'ISO 9001 Certification', 
       desc: 'Internationally recognized quality management system',
-      image: '/images/ISO.jpg' 
+      image: 'adc/clinical-setup/iso-9001-certification' 
     },
     { 
       title: 'Medical-Grade Autoclave', 
       desc: 'High-pressure steam sterilization for instruments',
-      image: '/images/Autoclave.webp' 
+      image: 'adc/clinical-setup/medical-grade-autoclave' 
     },
     { 
       title: 'HEPA Air Filtration', 
       desc: 'Hospital-grade air purification systems',
-      image: '/images/HEPA.jpg' 
+      image: 'adc/clinical-setup/hepa-air-filtration' 
     },
     { 
       title: 'Disposable Consumables', 
       desc: 'Single-use items for maximum hygiene',
-      image: '/images/Disposable.avif' 
+      image: 'adc/clinical-setup/disposable-consumables' 
     },
     { 
       title: 'Daily Sanitization', 
       desc: 'Complete facility disinfection protocols',
-      image: '/images/Sanitization.jpg' 
+      image: 'adc/clinical-setup/daily-sanitization-protocol' 
     },
   ];
 
@@ -198,7 +199,7 @@ export default function ClinicalSetupPage() {
       <PageBanner 
         title="Clinical Setup & Technology"
         subtitle="State-of-the-art infrastructure meeting international standards"
-        bgImage="/images/IMG_7040.JPG.jpeg"
+        bgImage={cldUrl("adc/hero/clinical-setup-hero")}
       />
 
       <main>
