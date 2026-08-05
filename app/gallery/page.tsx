@@ -8,6 +8,7 @@ import PageBanner from '@/components/shared/PageBanner'
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { X } from 'lucide-react'
+import { CldImage } from 'next-cloudinary'
 
 // Explicit Type Definition to avoid TS errors
 interface GalleryItem {
@@ -89,12 +90,13 @@ export default function GalleryPage() {
                 <div key={item.id} className="bg-white rounded-xl overflow-hidden border border-[#E2E8F0] hover:shadow-lg transition flex flex-col">
                   <div className="aspect-square bg-[#F8FAFC] relative overflow-hidden flex items-center justify-center p-2">
                     {item.image ? (
-                      <img 
-                        src={item.image} 
-                        alt={item.title} 
-                        className={`w-full h-full rounded-lg ${
+                      <CldImage
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className={`rounded-lg ${
                           item.fit === 'contain' ? 'object-contain' : 'object-cover'
-                        }`} 
+                        }`}
                       />
                     ) : (
                       <div className="w-full h-full rounded-lg bg-gradient-to-br from-[#0F4C81] to-[#1B5FA0] flex items-center justify-center">
@@ -130,10 +132,11 @@ export default function GalleryPage() {
                     onClick={() => setOpenModal(item)}
                     className="group relative w-full overflow-hidden rounded-[1.4rem] bg-[#F8FAFC] border border-[#E2E8F0] break-inside-avoid block"
                   >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={item.src}
+                      src={cldUrl(item.src)}
                       loading="lazy"
-                      alt="Gallery Layout Item"
+                      alt="Advanced Dental Clinic Jabalpur gallery photo"
                       className="w-full h-auto block transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                     <span className="absolute inset-0 bg-[#0F4C81]/0 transition-colors duration-500 group-hover:bg-[#0F4C81]/20 pointer-events-none" />
@@ -175,7 +178,8 @@ export default function GalleryPage() {
               <X className="h-6 w-6" />
             </button>
             <motion.img
-              src={openModal.src}
+              src={cldUrl(openModal.src)}
+              alt="Advanced Dental Clinic Jabalpur gallery photo enlarged"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}

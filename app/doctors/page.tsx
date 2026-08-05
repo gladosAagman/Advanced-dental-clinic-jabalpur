@@ -8,6 +8,7 @@ import PageBanner from '@/components/shared/PageBanner'
 import { DOCTORS, CLINIC } from '@/lib/data/site'
 import Link from 'next/link'
 import { Award, GraduationCap } from 'lucide-react'
+import { CldImage } from 'next-cloudinary'
 
 export default function DoctorsPage() {
   return (
@@ -31,10 +32,11 @@ export default function DoctorsPage() {
               {DOCTORS.map((doctor) => (
                 <div key={doctor.id} className="bg-gradient-to-br from-white to-[#F8FAFC] rounded-2xl border border-[#E2E8F0] overflow-hidden hover:shadow-xl transition">
                   <div className="h-[350px] md:h-[450px] w-full relative bg-gray-100 overflow-hidden rounded-t-2xl">
-                    <img 
-                      src={doctor.image} 
+                    <CldImage
+                      src={doctor.image}
                       alt={doctor.name}
-                      className={`w-full h-full object-cover drop-shadow-sm ${(doctor as any).imagePosition || 'object-center'}`}
+                      fill
+                      className={`object-cover drop-shadow-sm ${(doctor as any).imagePosition || 'object-center'}`}
                     />
                   </div>
                   

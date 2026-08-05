@@ -69,5 +69,22 @@
   "Periodontics & Implants_new.png": { "publicId": "adc/services/periodontics-implants-treatment", "alt": "Periodontics and implants treatment" },
   "Restorative Dentistry_new.png": { "publicId": "adc/services/restorative-dentistry-treatment", "alt": "Restorative dentistry treatment" },
 
-  "image copy.png": { "publicId": "adc/home/hero-doctor-photo", "alt": "Advanced Dental Clinic Jabalpur doctor" }
+  "image copy.png": { "publicId": "adc/home/hero-doctor-photo", "alt": "Advanced Dental Clinic Jabalpur doctor" },
+
+  "IMG_7007.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-01", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7020.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-02", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7030.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-03", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7039.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-04", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7042.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-05", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7046.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-06", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7081.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-07", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7082.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-08", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7083.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-09", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7093.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-10", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7094.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-11", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7099.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-12", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7109.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-13", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "IMG_7141.JPG.jpeg": { "publicId": "adc/unsorted/clinic-photo-14", "alt": "Advanced Dental Clinic Jabalpur clinic photo" },
+  "ai_scanner_generated.png": { "publicId": "adc/technology/ai-dental-scanner", "alt": "AI dental scanner technology" },
+  "smile_design_generated.png": { "publicId": "adc/technology/smile-design-preview", "alt": "AI-generated smile design preview" }
 }

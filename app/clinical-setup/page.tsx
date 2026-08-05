@@ -156,6 +156,7 @@ import PageBanner from '@/components/shared/PageBanner'
 import { TECHNOLOGIES } from '@/lib/data/site'
 import { Zap } from 'lucide-react'
 import { cldUrl } from '@/lib/cloudinary'
+import { CldImage } from 'next-cloudinary'
 
 export default function ClinicalSetupPage() {
   const safetyMeasures = [
@@ -217,10 +218,10 @@ export default function ClinicalSetupPage() {
                   {/* Image Container */}
                   {tech.image && (
                     <div className="w-full relative aspect-[4/3] overflow-hidden">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <CldImage
                         src={tech.image}
                         alt={tech.name}
+                        fill
                         loading="lazy"
                         className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                       />
@@ -259,10 +260,10 @@ export default function ClinicalSetupPage() {
                 >
                   {/* Image Container */}
                   <div className="w-full relative aspect-[4/3] overflow-hidden bg-gray-100">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <CldImage
                       src={measure.image}
                       alt={measure.title}
+                      fill
                       loading="lazy"
                       className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                     />
